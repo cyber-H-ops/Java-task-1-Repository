@@ -17,6 +17,10 @@ public class Course {
         double passPercentage = (studentsPassed / studentsRegistered) * 100;
         return passPercentage;
     }
-    public void displayCourseStats() {}
-    public static void displayUniversityStats() {}
+    public void displayCourseStats() {
+        System.out.println("Course: " + courseName);
+        System.out.println("  Students registered: " + studentsRegistered);
     }
+    public static void displayUniversityStats() {
+        System.out.println("Total students registered (all courses): " + totalStudentsAllCourses);
+    }}
