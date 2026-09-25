@@ -23,4 +23,5 @@ public class Course {
     }
     public static void displayUniversityStats() {
         System.out.println("Total students registered (all courses): " + totalStudentsAllCourses);
-    }}
+    }
+}
